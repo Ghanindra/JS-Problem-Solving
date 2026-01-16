@@ -157,20 +157,113 @@
 // analyzeString("proogramming");
 
 // 7 Given a sentence, return the longest word. If there are multiple words with the same maximum length, return the first one.
-let long="I love  programming asdfgtrfgty"
+// let long="I love  programming asdfgtrfgty"
+// let longest=""
 
-let arr= long.split(" ");
-let longest=""
-// console.log(arr);
-
-for(let char of arr){
-    // console.log(char);
+//     let arr=long.split(" ");
+//     console.log(arr);
     
-if(char.length>longest.length){
-   longest=char
+//     for(let char of arr){
+//         if(char.length>longest.length){
+//   longest=char
+//         }
+//     }
+// console.log(longest);
 
-    
-}
 
-}
-console.log(longest);
+// Question 9: First NON-repeating character
+// Problem
+
+// Given a string, find the first character that appears only once.
+
+
+// function nonRepeatingCharacter(name){
+//     let count={
+
+//     }
+   
+// for(let char of name){
+//     if(count[char]){
+//         count[char]=count[char]+1
+//         // console.log("count",count[char]);
+        
+//     }else{
+//         count[char]=1
+//     }
+// }
+// // console.log(count);
+
+// for(let c of name){
+//     if(count[c]===1)
+//         return c
+
+
+
+// }
+
+
+
+
+// }
+// let result=nonRepeatingCharacter("sajan")
+// console.log(result);
+
+
+// Question 10: Substring / Search in a String
+// 📌 Problem
+
+// Given a string and a search word, check:
+
+// Does the string contain the word?
+
+// At which position does the word start?
+
+// Does the string start with the word?
+
+// Does the string end with the word?
+
+// let s="javascript is powerful"
+// let a=s.includes("script")
+// let i = s.indexOf("script")
+// let w=s.startsWith("java")
+// let e=s.endsWith("ful")
+// console.log(e);
+
+// function search(str,word){
+// let r=str.includes(word)
+// console.log(r);
+// let p=str.indexOf(word)
+// console.log(p);
+
+// }
+// search("bibash","b")
+
+
+
+// function formstring(name){
+// let t= name.trim();
+// let f=t.split(",")
+// let g=[]
+
+// // console.log(s);
+// for(let char of f){
+// let u=char[0].toUpperCase() 
+// let r=char.slice(1).toLowerCase()
+// g.push(u+r)
+
+// }
+
+//  let  finalsentence=g.join()
+//     console.log(finalsentence);
+// // console.log(r);
+
+// }
+
+// formstring("     bibash " )
+
+
+// Find the most frequent character
+
+// Check if two strings are anagrams
+
+// Compress string (e.g., "aaabbc" → "a3b2c1")
