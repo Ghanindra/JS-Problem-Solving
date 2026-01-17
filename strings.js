@@ -262,8 +262,109 @@
 // formstring("     bibash " )
 
 
-// Find the most frequent character
 
-// Check if two strings are anagrams
 
-// Compress string (e.g., "aaabbc" → "a3b2c1")
+
+//11 Given a string, find the character that appears the most times.
+
+// let s="programming"
+// t=s.split("");
+// console.log(t);
+
+// let count={
+
+// }
+// let max=0;
+
+// let res=[]
+// for(let char of t){
+   
+// count[char]=(count[char]||0)+1
+
+
+   
+// }
+
+// for(let char in count){
+//     if(count[char]>max ){
+   
+//         max=count[char]
+//         res=[char]
+
+//     }else if(count[char]===max){
+//         res.push(char)
+//     }
+// }
+// console.log(res);
+
+
+//12 Compress a string by counting consecutive letters.
+
+// function compressString(str){
+// let count=1;
+// let result="";
+// for(let i=0;i<str.length;i++){
+//     if(str[i]===str[i+1]){
+// count++
+//     }else{
+//         result=result+str[i]+count
+//         count=1
+       
+//     }
+// }
+//  console.log(result);
+
+// }
+// compressString("aaabbc")
+
+// 13 Check if two strings are anagrams
+
+function anagram(str,word){
+    let s=str.toLowerCase().trim().split("");
+    let w=word.toLowerCase().trim().split("");
+let sc={
+
+}
+let wc={
+
+}
+
+for(let char of s){
+   sc[char]=(sc[char]|| 0)+1
+
+}
+console.log(sc);
+for(let chars of w){
+   wc[chars]=(wc[chars]|| 0)+1
+    
+}
+console.log(wc);
+let isAnagram=true;
+
+for(let key in sc){
+    console.log("sc",key);
+    
+    if(sc[key]!==wc[key]){
+        isAnagram=false;
+        break;
+    }
+}
+for(let key in wc){
+     console.log("wc",key)
+    if(!(key in sc)){
+       
+        
+        isAnagram = false;
+        break;
+    }
+}
+if(isAnagram){
+    console.log("Anagram");
+    
+}else{
+    console.log("Not Anagram");
+    
+}
+
+}
+anagram("silent","listen")

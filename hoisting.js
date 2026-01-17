@@ -287,3 +287,30 @@
 //     });
 
 
+
+// callbacks
+// setTimeout(function(){
+//     console.log("hello callbacks");
+    
+// },3000);
+
+
+// function a(b){
+// console.log("a");
+// b()
+
+// }
+// a(function b(){
+//     console.log("b");
+    
+// });
+
+let btn=document.getElementById("btn")
+btn.addEventListener("click",()=>{
+    setTimeout(function(){
+let h1=document.createElement("h1")
+h1.innerText="hello javascript"
+  document.body.appendChild(h1);  
+},3000)
+}
+)
