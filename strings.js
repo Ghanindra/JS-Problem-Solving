@@ -319,52 +319,91 @@
 
 // 13 Check if two strings are anagrams
 
-function anagram(str,word){
-    let s=str.toLowerCase().trim().split("");
-    let w=word.toLowerCase().trim().split("");
-let sc={
+// function anagram(str,word){
+//     let s=str.toLowerCase().trim().split("");
+//     let w=word.toLowerCase().trim().split("");
+// let sc={
 
-}
-let wc={
+// }
+// let wc={
 
-}
+// }
 
-for(let char of s){
-   sc[char]=(sc[char]|| 0)+1
+// for(let char of s){
+//    sc[char]=(sc[char]|| 0)+1
 
-}
-console.log(sc);
-for(let chars of w){
-   wc[chars]=(wc[chars]|| 0)+1
+// }
+// console.log(sc);
+// for(let chars of w){
+//    wc[chars]=(wc[chars]|| 0)+1
     
-}
-console.log(wc);
-let isAnagram=true;
+// }
+// console.log(wc);
+// let isAnagram=true;
 
-for(let key in sc){
-    console.log("sc",key);
+// for(let key in sc){
+//     console.log("sc",key);
     
-    if(sc[key]!==wc[key]){
-        isAnagram=false;
-        break;
-    }
-}
-for(let key in wc){
-     console.log("wc",key)
-    if(!(key in sc)){
+//     if(sc[key]!==wc[key]){
+//         isAnagram=false;
+//         break;
+//     }
+// }
+// for(let key in wc){
+//      console.log("wc",key)
+//     if(!(key in sc)){
        
         
-        isAnagram = false;
-        break;
-    }
-}
-if(isAnagram){
-    console.log("Anagram");
+//         isAnagram = false;
+//         break;
+//     }
+// }
+// if(isAnagram){
+//     console.log("Anagram");
     
-}else{
-    console.log("Not Anagram");
+// }else{
+//     console.log("Not Anagram");
     
-}
+// }
 
-}
-anagram("silent","listen")
+// }
+// anagram("silent","listen")
+
+
+
+// next way to check anagram
+
+// function anagram(str, word) {
+//     if (str.length !== word.length) {
+//         console.log("not anagram");
+//         return;
+//     }
+
+//     let count = {};
+
+//     for (let char of str) {
+//         count[char] = (count[char] || 0) + 1;
+//     }
+
+//     for (let char of word) {
+//         if (!count[char]) {
+//             console.log("not anagram");
+//             return;
+//         }
+//         count[char]--;
+//     }
+
+//     console.log("anagram");
+// }
+// anagram("siiene","sientl")
+
+
+//14 Count number of words in a sentence
+// function count(word){
+// let s=word.split(" ")
+
+//     console.log(s.length);
+    
+
+// }
+// count("i love programming")
