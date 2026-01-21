@@ -107,3 +107,57 @@
 //  arr[0]=last
 //  console.log(arr);
  
+// 9 Merge Two Arrays (Basic)
+
+// arr1 = [1, 2, 3]
+// arr2 = [4, 5, 6]
+
+// let result=[];
+// for(let char of arr1){
+//     result.push(char)
+// }
+// for(let char of arr2){
+//     result.push(char)
+// }
+// console.log(result);
+
+
+// 10 Find Duplicate Elements
+
+
+// let arr = [1, 2, 3, 2, 4, 1]
+// let dup=[]                                                      
+// for(let i=0;i<arr.length;i++){
+//     for(let j=i+1;j<arr.length;j++){
+// if(arr[i]===arr[j] && !dup.includes(arr[i])){
+//     dup.push(arr[i])
+// }
+//     }
+   
+// }
+// console.log(dup);
+
+
+
+// 11 Count Frequency of Each Element
+
+let arr = [1, 2, 2, 3, 1, 4, 2];
+let counted = [];   // 
+
+for (let i = 0; i < arr.length; i++) {
+    if (counted.includes(arr[i])) continue;  
+
+    let count = 1;  
+    for (let j = i + 1; j < arr.length; j++) {
+        if (arr[i] === arr[j]) {
+            count++;
+        }
+    }
+
+    console.log(arr[i],count)
+      counted.push(arr[i]);  
+
+}
+
+
+                                                   

@@ -50,10 +50,6 @@ Focus is on **core concepts, problem solving, and logical understanding**, not c
 3. **Array Manipulations**
    - **Right rotate array by 1**
 
-4. **Execution Concepts**
-   - Step-by-step loop execution
-   - Tracking temporary variables
-   - Conditional updates (max, secondMax, shifting, etc.)
-   - Understanding array indexing
+4. nested loop
 
 ---
