@@ -34,22 +34,51 @@ Focus is on **core concepts, problem solving, and logical understanding**, not c
 
 ---
 
-## ✅ Arrays
+Arrays
+Topics Covered:
 
-### Topics Covered Today:
-1. **Basic Operations**
-   - `length`, indexing, first & last element
-   - Looping with `for..of` and `for` loops
+Basics
 
-2. **Array Computations**
-   - Find **max** and **min**
-   - Find **sum** and **average**
-   - Remove duplicates
-   - Find **second largest number**
+Print length, first element, last element
 
-3. **Array Manipulations**
-   - **Right rotate array by 1**
+Loop through array (for...of, forEach)
 
-4. nested loop
+Calculations
 
----
+Find largest and smallest numbers
+
+Sum and average of elements
+
+Duplicates
+
+Remove duplicate elements
+
+Find duplicate elements
+
+Order & Position
+
+Print array in reverse
+
+Rotate array right by 1 position
+
+Merge two arrays
+
+Frequency Counting
+
+Count occurrences of each element using nested loops
+
+Store results in objects or arrays
+
+Sorting
+
+Sort array in ascending order without using .sort()
+
+Array Mutation
+
+Remove element using splice
+
+Update element using splice
+
+Check existence using .includes()
+
+Push/pop/unshift operations
