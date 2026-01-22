@@ -82,3 +82,5 @@ Update element using splice
 Check existence using .includes()
 
 Push/pop/unshift operations
+ map,filter,reduce
+ 
