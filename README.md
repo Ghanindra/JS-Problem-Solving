@@ -84,3 +84,19 @@ Check existence using .includes()
 Push/pop/unshift operations
  map,filter,reduce
  
+
+ objects
+
+ Dynamic object keys & reusable functions
+
+Form data to object mapping
+
+Excluding sensitive data with destructuring & rest
+
+Counting array values into objects
+
+Role-based permission checks
+
+Difference between mutation and immutability
+
+Practical patterns used in React, backend, dashboards, admin panels, and API handling
