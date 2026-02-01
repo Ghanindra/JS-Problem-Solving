@@ -272,7 +272,7 @@
 
 
 // first class function
-//=> The ability to use function as value is known as function
+//=> The ability to use function as value is known as first class function
 
 // let b=function a(params){
 

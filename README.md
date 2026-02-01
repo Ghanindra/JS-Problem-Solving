@@ -100,3 +100,7 @@ Role-based permission checks
 Difference between mutation and immutability
 
 Practical patterns used in React, backend, dashboards, admin panels, and API handling
+
+<!-- ASYNC-AWAIT -->
+
+- Practice promises,async,await ,error handling,promise vs async
