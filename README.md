@@ -104,3 +104,25 @@ Practical patterns used in React, backend, dashboards, admin panels, and API han
 <!-- ASYNC-AWAIT -->
 
 - Practice promises,async,await ,error handling,promise vs async
+
+<!-- DOM -->
+
+Learned that the DOM is not about memorizing methods but about understanding the tree structure of elements and how user actions flow through that structure.
+
+Learned how to correctly select elements and why global selection can cause bugs when the same class is used multiple times.
+
+Understood how events work, how they bubble, and why event delegation helps handle many elements using a single event listener.
+
+Learned how event.target identifies the exact element that was interacted with.
+
+Understood how closest() is used to find the correct parent context so updates affect only the intended element.
+
+Learned how data-* attributes store extra information directly on elements and how dataset accesses that data in JavaScript.
+
+Practiced updating the DOM by changing text, toggling classes, applying styles, disabling elements, and removing elements based on state.
+
+Learned how to safely work with multiple similar elements and why looping is necessary.
+
+Understood how asynchronous code interacts with the DOM, including showing loading states and updating the UI after promises resolve or fail.
+
+Learned a clear mental process for solving DOM problems: identify the event, find the exact target, determine the correct context, and update the UI accordingly

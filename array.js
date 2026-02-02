@@ -267,3 +267,23 @@
 
 
 
+// let arr=[50,25,3,18]
+// let max=arr[0]
+// let min=arr[0]
+// for(let char of arr){
+//     if(char>max){
+//        max=char
+//     }else if(char<min){
+//        min=char
+//     }
+// }
+// console.log(max);
+// console.log(min);
+
+
+let arr=[1,2,3,4,5]
+let rev=[]
+for(let i=arr.length-1;i>=0;i--){
+  rev.push(arr[i])
+}
+console.log(rev);

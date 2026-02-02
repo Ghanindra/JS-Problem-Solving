@@ -1,23 +1,53 @@
 <!DOCTYPE html>
 <html>
 <body>
-  <h1> TODO </h1>
-
-
-<input id="input" type="text"  placeholder= "Add"></input>
-<input id="searchItem" type="text"  placeholder= "search by name"></input>
-<button id="btn"> Add</button>
-<ul class="list">
-  <!-- <li class="listItems"> name <span><button>edit</button>  <button>delete</button></span> </li>   -->
-
-</ul>
-<!-- <div class="hello">
-  <ul class="language">
-    <li> js </li>
+  <title>Dom practice </title>
+<style>
+    .highlight{
+        background-color:green;
+        color:green;
+        font-weight:bold;
+        padding:5px;
+    }
+</style>
+  <!-- <h1 id="h1">H1</h1>
+<p id="p">hey dom</p> -->
+<!-- <div id="bubble">
+<button class="datas-color" data-color="red">red</button>
+<button class="datas-color" data-color="green">green</button>
+<button class="datas-color" data-color="yellow">yellow</button>
+</div> -->
+<!-- <div id="todo-list">
+  <ul>
+    <li data-id="1">Buy groceries</li>
+    <li data-id="2">Finish homework</li>
+    <li data-id="3">Call a friend</li>
   </ul>
+</div>
+<p id="output">Click an item to see its ID</p> -->
+<!-- <div id="user-container">
+  <p id="status">Click the button to load user</p>
+  <button id="load-btn">Load User</button>
 </div> -->
 
-<script src="async_await.js"></script>
+<div id="cart">
+  <div class="item" data-id="1" data-price="50">
+    <p>Item 1 - $50</p>
+    <button class="qty-btn" data-action="increase">+</button>
+    <button class="qty-btn" data-action="decrease">-</button>
+    <span class="qty">0</span>
+  </div>
+  <div class="item" data-id="2" data-price="30">
+    <p>Item 2 - $30</p>
+    <button class="qty-btn" data-action="increase">+</button>
+    <button class="qty-btn" data-action="decrease">-</button>
+    <span class="qty">0</span>
+  </div>
+</div>
+
+<p>Total: $<span id="total">0</span></p>
+
+<script src="Dom.js"></script>
 
 </body>
 </html>
